@@ -111,8 +111,8 @@ Training started : Validation Accuracy = 0.951
 ### Testing accuracy for final model
 
 My final model results were:
-* validation set accuracy of = 0.959 
-* test set accuracy of = 0.936
+* validation set accuracy of = 0.955 
+* test set accuracy of = 0.934
 
 
 ### Test a Model on New Images
@@ -137,4 +137,4 @@ Here are the results of the prediction:
 | General caution   	| General caution   							|
 
 
-The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set.
+The model was able to correctly guess 7 of the 8 traffic signs, which gives an accuracy of 87.5%. This compares favorably to the accuracy on the test set.
