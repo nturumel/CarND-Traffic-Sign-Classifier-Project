@@ -86,9 +86,9 @@ My final model consisted of the following layers:
 
 These are the Hyper Parameters that I used:
 
-Epochs=20
-BATCH_SIZE=128
-rate=0.0009
+* Epochs=20
+* BATCH_SIZE=128
+* rate=0.0009
 
 For training the dropout rate was set to 50%.
 
