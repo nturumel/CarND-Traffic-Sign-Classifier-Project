@@ -1,11 +1,5 @@
 # **Traffic Sign Recognition** 
 
-## Writeup
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
-
 **Build a Traffic Sign Recognition Project**
 
 The goals / steps of this project are the following:
@@ -22,11 +16,11 @@ The goals / steps of this project are the following:
 [image1]: ./examples/visualization.jpg "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image4]: ./examples/1.png "Traffic Sign 1"
+[image5]: ./examples/2.png "Traffic Sign 2"
+[image6]: ./examples/3.png "Traffic Sign 3"
+[image7]: ./examples/4.png "Traffic Sign 4"
+[image8]: ./examples/5.png "Traffic Sign 5"
 [image9]: ./examples/visualization_augmented.png "Visualization Augmented"
 ---
 ### Writeup / README
@@ -38,11 +32,11 @@ You're reading it! and here is a link to my [project code](https://github.com/ud
 I used the pandas library to calculate summary statistics of the traffic
 signs data set:
 
-Number of training examples = 34799
-Number of validation examples = 4410
-Number of testing examples = 12630
-Image data shape = (32, 32, 3)
-Number of classes = 43
+* Number of training examples = 34799
+* Number of validation examples = 4410
+* Number of testing examples = 12630
+* Image data shape = (32, 32, 3)
+* Number of classes = 43
 
 #### 2. Include an exploratory visualization of the dataset.
 
@@ -92,9 +86,9 @@ My final model consisted of the following layers:
 
 These are the Hyper Parameters that I used:
 
-Epochs=20
-BATCH_SIZE=128
-rate=0.0009
+* Epochs=20
+* BATCH_SIZE=128
+* rate=0.0009
 
 For training the dropout rate was set to 50%.
 
